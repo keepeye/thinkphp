@@ -1687,7 +1687,6 @@ class Model
      */
     public function startTrans()
     {
-        $this->commit();
         $this->db->startTrans();
         return;
     }
